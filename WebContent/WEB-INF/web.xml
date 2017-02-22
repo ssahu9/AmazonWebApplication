@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>AmazonWebProject</display-name>
+  <welcome-file-list>
+    <welcome-file>InsertProduct.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ProductEntry</display-name>
+    <servlet-name>ProductEntry</servlet-name>
+    <servlet-class>com.project.controller.ProductEntry</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductEntry</servlet-name>
+    <url-pattern>/ProductEntry</url-pattern>
+  </servlet-mapping>
+</web-app>
