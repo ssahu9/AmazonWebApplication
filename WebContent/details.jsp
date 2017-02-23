@@ -58,7 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="top_right">
 				<ul>
 					<li><a href="#">help</a></li>|
-					<li><a href="contact.html">Contact</a></li>|
+					<li><a href="contact.jsp">Contact</a></li>|
 					<li><a href="#">Delivery information</a></li>
 				</ul>
 			</div>
@@ -75,7 +75,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="header">
 	<div class="head-t">
 		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" class="img-responsive" alt=""/> </a>
+			<a href="index.jsp"><img src="images/logo.png" class="img-responsive" alt=""/> </a>
 		</div>
 		<!-- start header_right -->
 		<div class="header_right">
@@ -104,17 +104,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="reg">
-					<a href="register.html">REGISTER</a>
+					<a href="register.jsp">REGISTER</a>
 				</div>
 			<div class="cart box_1">
-				<a href="checkout.html">
+				<a href="checkout.jsp">
 					<h3> <span class="simpleCart_total">$0.00</span> (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> items)<img src="images/bag.png" alt=""></h3>
 				</a>	
 				<p><a href="javascript:;" class="simpleCart_empty">(empty card)</a></p>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="create_btn">
-				<a href="checkout.html">CHECKOUT</a>
+				<a href="checkout.jsp">CHECKOUT</a>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -130,7 +130,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 		<!-- start header menu -->
 			<ul class="megamenu skyblue">
-			<li class="active grid"><a class="color1" href="index.html">Home</a></li>
+			<li class="active grid"><a class="color1" href="index.jsp">Home</a></li>
 			<li class="grid"><a class="color2" href="#">new arrivals</a>
 				<div class="megapanel">
 					<div class="row">
@@ -138,12 +138,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -151,12 +151,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">Pools&Tees</a></li>
-									<li><a href="women.html">shirts</a></li>
-									<li><a href="women.html">shorts</a></li>
-									<li><a href="women.html">twinsets</a></li>
-									<li><a href="women.html">kurts</a></li>
-									<li><a href="women.html">jackets</a></li>
+									<li><a href="women.jsp">Pools&Tees</a></li>
+									<li><a href="women.jsp">shirts</a></li>
+									<li><a href="women.jsp">shorts</a></li>
+									<li><a href="women.jsp">twinsets</a></li>
+									<li><a href="women.jsp">kurts</a></li>
+									<li><a href="women.jsp">jackets</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -164,12 +164,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">Handbag</a></li>
-									<li><a href="women.html">Slingbags</a></li>
-									<li><a href="women.html">Clutches</a></li>
-									<li><a href="women.html">Totes</a></li>
-									<li><a href="women.html">Wallets</a></li>
-									<li><a href="women.html">Laptopbags</a></li>
+									<li><a href="women.jsp">Handbag</a></li>
+									<li><a href="women.jsp">Slingbags</a></li>
+									<li><a href="women.jsp">Clutches</a></li>
+									<li><a href="women.jsp">Totes</a></li>
+									<li><a href="women.jsp">Wallets</a></li>
+									<li><a href="women.jsp">Laptopbags</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -178,11 +178,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -190,12 +190,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">Belts</a></li>
-									<li><a href="women.html">Pens</a></li>
-									<li><a href="women.html">Eyeglasses</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">Watches</a></li>
-									<li><a href="women.html">Jewellery</a></li>
+									<li><a href="women.jsp">Belts</a></li>
+									<li><a href="women.jsp">Pens</a></li>
+									<li><a href="women.jsp">Eyeglasses</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">Watches</a></li>
+									<li><a href="women.jsp">Jewellery</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -203,12 +203,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -229,12 +229,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -242,12 +242,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">Pools&Tees</a></li>
-									<li><a href="women.html">shirts</a></li>
-									<li><a href="women.html">shorts</a></li>
-									<li><a href="women.html">twinsets</a></li>
-									<li><a href="women.html">kurts</a></li>
-									<li><a href="women.html">jackets</a></li>
+									<li><a href="women.jsp">Pools&Tees</a></li>
+									<li><a href="women.jsp">shirts</a></li>
+									<li><a href="women.jsp">shorts</a></li>
+									<li><a href="women.jsp">twinsets</a></li>
+									<li><a href="women.jsp">kurts</a></li>
+									<li><a href="women.jsp">jackets</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -255,12 +255,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">Handbag</a></li>
-									<li><a href="women.html">Slingbags</a></li>
-									<li><a href="women.html">Clutches</a></li>
-									<li><a href="women.html">Totes</a></li>
-									<li><a href="women.html">Wallets</a></li>
-									<li><a href="women.html">Laptopbags</a></li>
+									<li><a href="women.jsp">Handbag</a></li>
+									<li><a href="women.jsp">Slingbags</a></li>
+									<li><a href="women.jsp">Clutches</a></li>
+									<li><a href="women.jsp">Totes</a></li>
+									<li><a href="women.jsp">Wallets</a></li>
+									<li><a href="women.jsp">Laptopbags</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -269,11 +269,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -281,12 +281,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">Belts</a></li>
-									<li><a href="women.html">Pens</a></li>
-									<li><a href="women.html">Eyeglasses</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">Watches</a></li>
-									<li><a href="women.html">Jewellery</a></li>
+									<li><a href="women.jsp">Belts</a></li>
+									<li><a href="women.jsp">Pens</a></li>
+									<li><a href="women.jsp">Eyeglasses</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">Watches</a></li>
+									<li><a href="women.jsp">Jewellery</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -294,12 +294,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -320,12 +320,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -333,12 +333,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">Pools&Tees</a></li>
-									<li><a href="women.html">shirts</a></li>
-									<li><a href="women.html">shorts</a></li>
-									<li><a href="women.html">twinsets</a></li>
-									<li><a href="women.html">kurts</a></li>
-									<li><a href="women.html">jackets</a></li>
+									<li><a href="women.jsp">Pools&Tees</a></li>
+									<li><a href="women.jsp">shirts</a></li>
+									<li><a href="women.jsp">shorts</a></li>
+									<li><a href="women.jsp">twinsets</a></li>
+									<li><a href="women.jsp">kurts</a></li>
+									<li><a href="women.jsp">jackets</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -346,12 +346,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">Handbag</a></li>
-									<li><a href="women.html">Slingbags</a></li>
-									<li><a href="women.html">Clutches</a></li>
-									<li><a href="women.html">Totes</a></li>
-									<li><a href="women.html">Wallets</a></li>
-									<li><a href="women.html">Laptopbags</a></li>
+									<li><a href="women.jsp">Handbag</a></li>
+									<li><a href="women.jsp">Slingbags</a></li>
+									<li><a href="women.jsp">Clutches</a></li>
+									<li><a href="women.jsp">Totes</a></li>
+									<li><a href="women.jsp">Wallets</a></li>
+									<li><a href="women.jsp">Laptopbags</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -360,11 +360,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -372,12 +372,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">Belts</a></li>
-									<li><a href="women.html">Pens</a></li>
-									<li><a href="women.html">Eyeglasses</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">Watches</a></li>
-									<li><a href="women.html">Jewellery</a></li>
+									<li><a href="women.jsp">Belts</a></li>
+									<li><a href="women.jsp">Pens</a></li>
+									<li><a href="women.jsp">Eyeglasses</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">Watches</a></li>
+									<li><a href="women.jsp">Jewellery</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -385,12 +385,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -411,12 +411,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -424,12 +424,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">Pools&Tees</a></li>
-									<li><a href="women.html">shirts</a></li>
-									<li><a href="women.html">shorts</a></li>
-									<li><a href="women.html">twinsets</a></li>
-									<li><a href="women.html">kurts</a></li>
-									<li><a href="women.html">jackets</a></li>
+									<li><a href="women.jsp">Pools&Tees</a></li>
+									<li><a href="women.jsp">shirts</a></li>
+									<li><a href="women.jsp">shorts</a></li>
+									<li><a href="women.jsp">twinsets</a></li>
+									<li><a href="women.jsp">kurts</a></li>
+									<li><a href="women.jsp">jackets</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -437,12 +437,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">Handbag</a></li>
-									<li><a href="women.html">Slingbags</a></li>
-									<li><a href="women.html">Clutches</a></li>
-									<li><a href="women.html">Totes</a></li>
-									<li><a href="women.html">Wallets</a></li>
-									<li><a href="women.html">Laptopbags</a></li>
+									<li><a href="women.jsp">Handbag</a></li>
+									<li><a href="women.jsp">Slingbags</a></li>
+									<li><a href="women.jsp">Clutches</a></li>
+									<li><a href="women.jsp">Totes</a></li>
+									<li><a href="women.jsp">Wallets</a></li>
+									<li><a href="women.jsp">Laptopbags</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -451,11 +451,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -463,12 +463,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">Belts</a></li>
-									<li><a href="women.html">Pens</a></li>
-									<li><a href="women.html">Eyeglasses</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">Watches</a></li>
-									<li><a href="women.html">Jewellery</a></li>
+									<li><a href="women.jsp">Belts</a></li>
+									<li><a href="women.jsp">Pens</a></li>
+									<li><a href="women.jsp">Eyeglasses</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">Watches</a></li>
+									<li><a href="women.jsp">Jewellery</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -476,12 +476,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -503,12 +503,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -516,12 +516,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">Pools&Tees</a></li>
-									<li><a href="women.html">shirts</a></li>
-									<li><a href="women.html">shorts</a></li>
-									<li><a href="women.html">twinsets</a></li>
-									<li><a href="women.html">kurts</a></li>
-									<li><a href="women.html">jackets</a></li>
+									<li><a href="women.jsp">Pools&Tees</a></li>
+									<li><a href="women.jsp">shirts</a></li>
+									<li><a href="women.jsp">shorts</a></li>
+									<li><a href="women.jsp">twinsets</a></li>
+									<li><a href="women.jsp">kurts</a></li>
+									<li><a href="women.jsp">jackets</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -529,12 +529,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">Handbag</a></li>
-									<li><a href="women.html">Slingbags</a></li>
-									<li><a href="women.html">Clutches</a></li>
-									<li><a href="women.html">Totes</a></li>
-									<li><a href="women.html">Wallets</a></li>
-									<li><a href="women.html">Laptopbags</a></li>
+									<li><a href="women.jsp">Handbag</a></li>
+									<li><a href="women.jsp">Slingbags</a></li>
+									<li><a href="women.jsp">Clutches</a></li>
+									<li><a href="women.jsp">Totes</a></li>
+									<li><a href="women.jsp">Wallets</a></li>
+									<li><a href="women.jsp">Laptopbags</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -543,11 +543,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -555,12 +555,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">Belts</a></li>
-									<li><a href="women.html">Pens</a></li>
-									<li><a href="women.html">Eyeglasses</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">Watches</a></li>
-									<li><a href="women.html">Jewellery</a></li>
+									<li><a href="women.jsp">Belts</a></li>
+									<li><a href="women.jsp">Pens</a></li>
+									<li><a href="women.jsp">Eyeglasses</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">Watches</a></li>
+									<li><a href="women.jsp">Jewellery</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -568,12 +568,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -595,12 +595,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -608,12 +608,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">trends</a></li>
-									<li><a href="women.html">sale</a></li>
-									<li><a href="women.html">style videos</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">trends</a></li>
+									<li><a href="women.jsp">sale</a></li>
+									<li><a href="women.jsp">style videos</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -621,12 +621,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">trends</a></li>
-									<li><a href="women.html">sale</a></li>
-									<li><a href="women.html">style videos</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">trends</a></li>
+									<li><a href="women.jsp">sale</a></li>
+									<li><a href="women.jsp">style videos</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -635,11 +635,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -647,12 +647,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">trends</a></li>
-									<li><a href="women.html">sale</a></li>
-									<li><a href="women.html">style videos</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">trends</a></li>
+									<li><a href="women.jsp">sale</a></li>
+									<li><a href="women.jsp">style videos</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -660,12 +660,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -686,12 +686,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Clothing</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">brands</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">brands</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -699,12 +699,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>kids</h4>
 								<ul>
-									<li><a href="women.html">trends</a></li>
-									<li><a href="women.html">sale</a></li>
-									<li><a href="women.html">style videos</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">trends</a></li>
+									<li><a href="women.jsp">sale</a></li>
+									<li><a href="women.jsp">style videos</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -712,12 +712,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Bags</h4>
 								<ul>
-									<li><a href="women.html">trends</a></li>
-									<li><a href="women.html">sale</a></li>
-									<li><a href="women.html">style videos</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">trends</a></li>
+									<li><a href="women.jsp">sale</a></li>
+									<li><a href="women.jsp">style videos</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>												
 						</div>
@@ -726,11 +726,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>account</h4>
 								<ul>
 									<li><a href="#">login</a></li>
-									<li><a href="register.html">create an account</a></li>
-									<li><a href="women.html">create wishlist</a></li>
-									<li><a href="women.html">my shopping bag</a></li>
-									<li><a href="women.html">brands</a></li>
-									<li><a href="women.html">create wishlist</a></li>
+									<li><a href="register.jsp">create an account</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
+									<li><a href="women.jsp">my shopping bag</a></li>
+									<li><a href="women.jsp">brands</a></li>
+									<li><a href="women.jsp">create wishlist</a></li>
 								</ul>	
 							</div>						
 						</div>
@@ -738,12 +738,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Accessories</h4>
 								<ul>
-									<li><a href="women.html">trends</a></li>
-									<li><a href="women.html">sale</a></li>
-									<li><a href="women.html">style videos</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">trends</a></li>
+									<li><a href="women.jsp">sale</a></li>
+									<li><a href="women.jsp">style videos</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -751,12 +751,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>Footwear</h4>
 								<ul>
-									<li><a href="women.html">new arrivals</a></li>
-									<li><a href="women.html">men</a></li>
-									<li><a href="women.html">women</a></li>
-									<li><a href="women.html">accessories</a></li>
-									<li><a href="women.html">kids</a></li>
-									<li><a href="women.html">style videos</a></li>
+									<li><a href="women.jsp">new arrivals</a></li>
+									<li><a href="women.jsp">men</a></li>
+									<li><a href="women.jsp">women</a></li>
+									<li><a href="women.jsp">accessories</a></li>
+									<li><a href="women.jsp">kids</a></li>
+									<li><a href="women.jsp">style videos</a></li>
 								</ul>	
 							</div>
 						</div>
@@ -784,7 +784,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="grid images_3_of_2">
 						<ul id="etalage">
 							<li>
-								<a href="optionallink.html">
+								<a href="optionallink.jsp">
 									<img class="etalage_thumb_image" src="images/d1.jpg" class="img-responsive" />
 									<img class="etalage_source_image" src="images/d1.jpg" class="img-responsive" title="" />
 								</a>
@@ -828,7 +828,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 					</div>
 					<div class="btn_form">
-						<a href="checkout.html">buy</a>
+						<a href="checkout.jsp">buy</a>
 					</div>
 					<a href="#"><span>login to save in wishlist </span></a>
 					
@@ -882,7 +882,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="w_nav1">
 			<h4>All</h4>
 			<ul>
-				<li><a href="women.html">women</a></li>
+				<li><a href="women.jsp">women</a></li>
 				<li><a href="#">new arrivals</a></li>
 				<li><a href="#">trends</a></li>
 				<li><a href="#">boys</a></li>
@@ -1032,7 +1032,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h4>CUSTOMER CARE</h4>
 				<li><a href="#">Help Center</a></li>
 				<li><a href="#">FAQ</a></li>
-				<li><a href="buy.html">How To Buy</a></li>
+				<li><a href="buy.jsp">How To Buy</a></li>
 				<li><a href="#">Delivery</a></li>
 		</div>
 		<div class="col-md-2 abt">
@@ -1040,14 +1040,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li><a href="#">Our Stories</a></li>
 				<li><a href="#">Press</a></li>
 				<li><a href="#">Career</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact.jsp">Contact</a></li>
 		</div>
 		<div class="col-md-2 myac">
 			<h4>MY ACCOUNT</h4>
-				<li><a href="register.html">Register</a></li>
+				<li><a href="register.jsp">Register</a></li>
 				<li><a href="#">My Cart</a></li>
 				<li><a href="#">Order History</a></li>
-				<li><a href="buy.html">Payment</a></li>
+				<li><a href="buy.jsp">Payment</a></li>
 		</div>
 		<div class="col-md-5 our-st">
 			<div class="our-left">
