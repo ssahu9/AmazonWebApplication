@@ -4,6 +4,8 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<%@page import="com.project.bean.Category"%>
+<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE HTML>
@@ -111,644 +113,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- start header menu -->
 			<ul class="megamenu skyblue">
 			<li class="active grid"><a class="color1" href="index.jsp">Home</a></li>
-			<li class="grid"><a class="color2" href="#">new arrivals</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">Pools&Tees</a></li>
-									<li><a href="women.jsp">shirts</a></li>
-									<li><a href="women.jsp">shorts</a></li>
-									<li><a href="women.jsp">twinsets</a></li>
-									<li><a href="women.jsp">kurts</a></li>
-									<li><a href="women.jsp">jackets</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">Handbag</a></li>
-									<li><a href="women.jsp">Slingbags</a></li>
-									<li><a href="women.jsp">Clutches</a></li>
-									<li><a href="women.jsp">Totes</a></li>
-									<li><a href="women.jsp">Wallets</a></li>
-									<li><a href="women.jsp">Laptopbags</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">Belts</a></li>
-									<li><a href="women.jsp">Pens</a></li>
-									<li><a href="women.jsp">Eyeglasses</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">Watches</a></li>
-									<li><a href="women.jsp">Jewellery</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
-				</li>
-			<li><a class="color4" href="#">TUXEDO</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">Pools&Tees</a></li>
-									<li><a href="women.jsp">shirts</a></li>
-									<li><a href="women.jsp">shorts</a></li>
-									<li><a href="women.jsp">twinsets</a></li>
-									<li><a href="women.jsp">kurts</a></li>
-									<li><a href="women.jsp">jackets</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">Handbag</a></li>
-									<li><a href="women.jsp">Slingbags</a></li>
-									<li><a href="women.jsp">Clutches</a></li>
-									<li><a href="women.jsp">Totes</a></li>
-									<li><a href="women.jsp">Wallets</a></li>
-									<li><a href="women.jsp">Laptopbags</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">Belts</a></li>
-									<li><a href="women.jsp">Pens</a></li>
-									<li><a href="women.jsp">Eyeglasses</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">Watches</a></li>
-									<li><a href="women.jsp">Jewellery</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
+			
+			<!-- getting category name from list and displaying it in list -->
+		<!-- 	
+			<% ArrayList<Category> categoryList=(ArrayList<Category>)session.getAttribute("categoryList"); %>
+
+		<%for(Category category:categoryList){ %>
+		
+			<li><a class="color2" href="#" name=<%=category.getCategoryName()%>></a><%=category.getCategoryName()%></a>				
+				</li>	
+		<% } %>
+		 -->	
+			
+			<li><a class="color2" href="#">Category</a>				
 				</li>				
-				<li><a class="color5" href="#">SWEATER</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">Pools&Tees</a></li>
-									<li><a href="women.jsp">shirts</a></li>
-									<li><a href="women.jsp">shorts</a></li>
-									<li><a href="women.jsp">twinsets</a></li>
-									<li><a href="women.jsp">kurts</a></li>
-									<li><a href="women.jsp">jackets</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">Handbag</a></li>
-									<li><a href="women.jsp">Slingbags</a></li>
-									<li><a href="women.jsp">Clutches</a></li>
-									<li><a href="women.jsp">Totes</a></li>
-									<li><a href="women.jsp">Wallets</a></li>
-									<li><a href="women.jsp">Laptopbags</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">Belts</a></li>
-									<li><a href="women.jsp">Pens</a></li>
-									<li><a href="women.jsp">Eyeglasses</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">Watches</a></li>
-									<li><a href="women.jsp">Jewellery</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
+				<li><a class="color5" href="#">Category3</a>
+				
 				</li>
-				<li><a class="color6" href="#">SHOES</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">Pools&Tees</a></li>
-									<li><a href="women.jsp">shirts</a></li>
-									<li><a href="women.jsp">shorts</a></li>
-									<li><a href="women.jsp">twinsets</a></li>
-									<li><a href="women.jsp">kurts</a></li>
-									<li><a href="women.jsp">jackets</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">Handbag</a></li>
-									<li><a href="women.jsp">Slingbags</a></li>
-									<li><a href="women.jsp">Clutches</a></li>
-									<li><a href="women.jsp">Totes</a></li>
-									<li><a href="women.jsp">Wallets</a></li>
-									<li><a href="women.jsp">Laptopbags</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">Belts</a></li>
-									<li><a href="women.jsp">Pens</a></li>
-									<li><a href="women.jsp">Eyeglasses</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">Watches</a></li>
-									<li><a href="women.jsp">Jewellery</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
+				<li><a class="color6" href="#">Category4</a>
+		
 				</li>				
 			
-				<li><a class="color7" href="#">GLASSES</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">Pools&Tees</a></li>
-									<li><a href="women.jsp">shirts</a></li>
-									<li><a href="women.jsp">shorts</a></li>
-									<li><a href="women.jsp">twinsets</a></li>
-									<li><a href="women.jsp">kurts</a></li>
-									<li><a href="women.jsp">jackets</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">Handbag</a></li>
-									<li><a href="women.jsp">Slingbags</a></li>
-									<li><a href="women.jsp">Clutches</a></li>
-									<li><a href="women.jsp">Totes</a></li>
-									<li><a href="women.jsp">Wallets</a></li>
-									<li><a href="women.jsp">Laptopbags</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">Belts</a></li>
-									<li><a href="women.jsp">Pens</a></li>
-									<li><a href="women.jsp">Eyeglasses</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">Watches</a></li>
-									<li><a href="women.jsp">Jewellery</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
-				</li>				
-			
-				<li><a class="color8" href="#">T-SHIRT</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">trends</a></li>
-									<li><a href="women.jsp">sale</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">trends</a></li>
-									<li><a href="women.jsp">sale</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">trends</a></li>
-									<li><a href="women.jsp">sale</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
+				<li><a class="color8" href="#">categor6y</a>
+				
+				
 				</li>
-				<li><a class="color9" href="#">WATCHES</a>
-				<div class="megapanel">
-					<div class="row">
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Clothing</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">brands</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>kids</h4>
-								<ul>
-									<li><a href="women.jsp">trends</a></li>
-									<li><a href="women.jsp">sale</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>							
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Bags</h4>
-								<ul>
-									<li><a href="women.jsp">trends</a></li>
-									<li><a href="women.jsp">sale</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>												
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>account</h4>
-								<ul>
-									<li><a href="#">login</a></li>
-									<li><a href="register.jsp">create an account</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-									<li><a href="women.jsp">my shopping bag</a></li>
-									<li><a href="women.jsp">brands</a></li>
-									<li><a href="women.jsp">create wishlist</a></li>
-								</ul>	
-							</div>						
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Accessories</h4>
-								<ul>
-									<li><a href="women.jsp">trends</a></li>
-									<li><a href="women.jsp">sale</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-						<div class="col1">
-							<div class="h_nav">
-								<h4>Footwear</h4>
-								<ul>
-									<li><a href="women.jsp">new arrivals</a></li>
-									<li><a href="women.jsp">men</a></li>
-									<li><a href="women.jsp">women</a></li>
-									<li><a href="women.jsp">accessories</a></li>
-									<li><a href="women.jsp">kids</a></li>
-									<li><a href="women.jsp">style videos</a></li>
-								</ul>	
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col2"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-						<div class="col1"></div>
-					</div>
-    				</div>
+				<li><a class="color9" href="#">Category7</a>
+		
 				</li>
 		 </ul> 
 	</div>
@@ -811,20 +202,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<form id="registration_form" action="contact.php" method="post">
 				<div>
 					<label>
-						<input placeholder="first name:" type="text" tabindex="1" required autofocus>
+						<input placeholder="first name:" type="text" pattern=^[a-zA-Z]{1,20}$ tabindex="1" name="fname" required autofocus>
 					</label>
 				</div>
 				<div>
 					<label>
-						<input placeholder="last name:" type="text" tabindex="2" required autofocus>
+						<input placeholder="last name:" type="text" tabindex="2"  pattern=^[a-zA-Z]{1,20}$ name="lname" required autofocus>
 					</label>
 				</div>
 				<div>
 					<label>
-						<input placeholder="email address:" type="email" tabindex="3" required>
+						<input placeholder="email address:" type="email"  name="email" tabindex="3" required>
 					</label>
 				</div>
-				<div class="sky-form">
+				<div>
+					<label>
+						<input placeholder="number" type="tel"  name="phone" pattern=^[7-9][0-9]{9}$ tabindex="3" required>
+					</label>
+				</div>
+		<!-- 		<div class="sky-form">
 					<div class="sky_form1">
 						<ul>
 							<li><label class="radio left"><input type="radio" name="radio" checked=""><i></i>Male</label></li>
@@ -833,22 +229,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 				</div>
+			 -->
 				<div>
 					<label>
-						<input placeholder="password" type="password" tabindex="4" required>
+						<input placeholder="password" type="password" pattern=^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$  nanme="pwd" tabindex="4" required>
 					</label>
 				</div>						
 				<div>
 					<label>
-						<input placeholder="retype password" type="password" tabindex="4" required>
+						<input placeholder="retype password" type="password" pattern=^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$ nanme="rpwd" tabindex="4" required>
 					</label>
 				</div>	
 				<div>
 					<input type="submit" value="create an account" id="register-submit">
 				</div>
+				<!-- 
 				<div class="sky-form">
 					<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>i agree to shoppe.com &nbsp;<a class="terms" href="#"> terms of service</a> </label>
 				</div>
+				 -->
 			</form>
 			<!-- /Form -->
 		</div>
