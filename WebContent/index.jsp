@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li class="active grid"><a class="color1" href="index.jsp">Home</a></li>
 			
 		<!-- getting category name from list and displaying it in list -->
-		<!-- 	
+		<%--  	
 			<% ArrayList<Category> categoryList=(ArrayList<Category>)session.getAttribute("categoryList"); %>
 
 		<%for(Category category:categoryList){ %>
@@ -124,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li><a class="color2" href="#" name=<%=category.getCategoryName()%>></a><%=category.getCategoryName()%></a>				
 				</li>	
 		<% } %>
-		 -->	
+		 --%>	
 			<li class="grid"><a class="color2" href="#">Category</a>				
 				</li>				
 				<li><a class="color5" href="#">Category3</a>
