@@ -29,7 +29,7 @@ public class CustomerBl {
 	private BillDao bill = new BillDaoImpl();
 	private ProductDao product = new ProductDaoImpl();
 
-	public int signIn(String email, String password) throws ClassNotFoundException, SQLException {
+	public Customer signIn(String email, String password) throws ClassNotFoundException, SQLException {
 		String ePattern = "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$";
 		java.util.regex.Pattern p = java.util.regex.Pattern.compile(ePattern);
 		java.util.regex.Matcher m = p.matcher(email);
@@ -38,7 +38,7 @@ public class CustomerBl {
 		} else
 			System.out.println("email ID is not valid");
 
-		return 0;
+		return null;
 
 	}
 

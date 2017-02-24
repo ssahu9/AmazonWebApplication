@@ -46,16 +46,25 @@ public class CustomerDaoImpl implements CustomerDao {
 	}
 
 	@Override
-	public int validation(String email, String password) throws ClassNotFoundException, SQLException {
+	public Customer validation(String email, String password) throws ClassNotFoundException, SQLException {
 		connection = CreateConnection.getCon();
-		pstmt = connection.prepareStatement("SELECT Customer_id FROM CUSTOMER_INFO WHERE EMAIL=? AND PASSWORD=?");
+		pstmt = connection.prepareStatement("SELECT* FROM CUSTOMER_INFO WHERE EMAIL=? AND PASSWORD=?");
 		pstmt.setString(1, email);
 		pstmt.setString(2, password);
 		rs = pstmt.executeQuery();
 		rs.next();
-		int customerId = rs.getInt(1);
+		Customer customer=new Customer();
+		customer.setCustomerId( rs.getInt(1));
+		customer.setFirstName( rs.getString(2));
+		customer.setLastName( rs.getString(3));
+		customer.setEmail( rs.getString(4));
+		customer.setPassword( rs.getString(5));
+		customer.setPhoneNumber( rs.getString(6));
+		
+		
+//		int customerId = rs.getInt(1);
 		connection.close();
-		return customerId;
+		return customer;
 	}
 
 	@Override
