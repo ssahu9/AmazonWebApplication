@@ -4,6 +4,8 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<%@page import="com.project.bean.Category"%>
+<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE HTML>
@@ -112,6 +114,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- start header menu -->
 			<ul class="megamenu skyblue">
 			<li class="active grid"><a class="color1" href="index.jsp">Home</a></li>
+			
+		<!-- getting category name from list and displaying it in list -->
+		<!-- 	
+			<% ArrayList<Category> categoryList=(ArrayList<Category>)session.getAttribute("categoryList"); %>
+
+		<%for(Category category:categoryList){ %>
+		
+			<li><a class="color2" href="#" name=<%=category.getCategoryName()%>></a><%=category.getCategoryName()%></a>				
+				</li>	
+		<% } %>
+		 -->	
 			<li class="grid"><a class="color2" href="#">Category</a>				
 				</li>				
 				<li><a class="color5" href="#">Category3</a>
